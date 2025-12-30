@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.6), rgba(255, 229, 229, 0.6)),
+    url("../imagenes/cara.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+#eventos {
+  padding: 25px;
+  margin-top: 20px;
+}
+
+#eventos h2 {
+  text-align: center;
+  color: #333333;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+#eventos h3 {
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.busqueda {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#buscarLocalidad {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ffcccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: white;
+}
+
+#botonBuscar {
+  padding: 10px 20px;
+  background: #8b0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#botonBuscar:hover {
+  background: #ff4d4d;
+  transform: scale(1.05);
+}
+
+#listaEventos {
+  list-style: none;
+  margin-top: 15px;
+}
+
+#listaEventos li {
+  background: #fff0f0;
+  border: 1px solid #ff4d4d;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+#listaEventos li:hover {
+  background: #ffe5e5;
+  transform: scale(1.02);
+}
+
+.formevento {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+#eventoInput {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ffcccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: white;
+}
+
+#agregarEventoBtn {
+  padding: 10px 20px;
+  background: #8b0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#agregarEventoBtn:hover {
+  background: #ff4d4d;
+  transform: scale(1.05);
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #8b0000;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: white;
+  background: #ff4d4d;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #8b0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff4d4d;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px #ff4d4d;
+}

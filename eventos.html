@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="../scripts/eventos.js"></script>
+    <link rel="stylesheet" href="../styles/evento.css" />
+    <title>Eventos</title>
+  </head>
+
+  <body>
+    <section id="eventos">
+      <h2 id="titulo-eventos">Eventos</h2>
+      <button id="boton-idioma">Euskara</button>
+      <p id="descripcion-eventos">
+        Las fiestas tradicionales no solo son celebración: son patrimonio
+        inmaterial. Con esta herramienta puedes explorar cuándo es el día
+        festivo en el pueblo navarro que más te gusta.
+      </p>
+       <a href="../index.html">← Volver al inicio</a>
+
+      <div class="busqueda">
+        <input
+          type="text"
+          id="buscarLocalidad"
+          placeholder="Buscar localidad..."
+        />
+        <button id="botonBuscar">Buscar</button>
+      </div>
+
+      <div class="infoeventos">
+        <h3 id="subtitulo-eventos">Próximos acontecimientos</h3>
+        <ul id="listaEventos"></ul>
+      </div>
+    </section>
+
+    <section class="eventostyle">
+      <div class="formevento">
+        <input
+          type="text"
+          id="eventoInput"
+          placeholder="Escribe tu evento aquí"
+        />
+        <button id="agregarEventoBtn">Agregar mi evento</button>
+      </div>
+    </section>
+
+   
+  </body>
+</html>
