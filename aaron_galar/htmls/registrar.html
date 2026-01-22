@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/registrar.css" />
+    <script defer src="../scripts/registrar.js"></script>
+    <title>REGISTRO</title>
+  </head>
+  <body>
+    <header><h1 id="titulo-header">PROCESO DE PATRIMONIALIZACIÓN</h1></header>
+    <button id="boton-idioma">Euskara</button>
+    <main>
+      <section>
+        <h2 id="titulo-proceso">Proceso</h2>
+        <p id="descripcion-proceso">
+          Antes de registrar el Patrimonio Cultural inmaterial hay que tener en
+          cuenta varios aspectos
+        </p>
+        <p id="mensaje-revision">
+          Este registro será revisado por un/a experto/a en patrimonio.
+        </p>
+        <a href="../index.html" id="volver">← Volver al inicio</a>
+        <article id="proceso">
+          <h3 id="adscripcion-titulo">Adscripción de un valor</h3>
+          <ol id="valores-lista">
+            <li id="valor-uso">
+              <strong>Valor de uso:</strong> relacionado con la capacidad del
+              patrimonio de satisfacer alguna necesidad determinada. El valor de
+              uso puede ser tangible, relacionado con su uso concreto, e
+              intangible, relacionado con la capacidad del bien cultural de
+              transmitir información y permitir el avance del conocimiento
+              humano.
+            </li>
+            <li id="valor-material">
+              <strong>Valor material:</strong> basado en la relación entre el
+              bien cultural y los sentidos y que permite valorarlo en función de
+              su forma y composición material. Entre los criterios que permiten
+              evaluar ese valor material, estarían su grado de artificiosidad,
+              creatividad, calidad técnica, materiales, etc
+            </li>
+            <li id="valor-simbolico">
+              <strong>Valor simbólico o relacional:</strong> radica en la
+              capacidad de evocación y representación del bien cultural,
+              convirtiéndolo en un vehículo de transmisión de ideas.
+            </li>
+            <li id="valor-historico">
+              <strong>Valor histórico:</strong> basado en la capacidad del bien
+              cultural de aportar conocimiento histórico. Es acumulativo y se
+              enriquece con las transformaciones a lo largo del tiempo.
+            </li>
+            <li id="valor-emotivo">
+              <strong>Valor emotivo:</strong> radica en la capacidad del bien
+              cultural de transmitir emociones, dependiendo del contexto
+              cultural, educación y sensibilidad individual.
+            </li>
+          </ol>
+
+          <h3 id="vinculo-titulo">
+            Vinculación entre persona y bien patrimonial
+          </h3>
+          <ol id="vinculos-lista">
+            <li id="vi">
+              <strong>(VI) Vínculo identitario:</strong> el individuo incorpora
+              el bien como rasgo fundamental de su identidad.
+            </li>
+            <li id="vf">
+              <strong>(VF) Vínculo familiar:</strong> relación basada en el
+              recuerdo o lazos familiares (madre, padre, abuelo/a...).
+            </li>
+            <li id="vt">
+              <strong>(VT) Vínculo temporal:</strong> conexión con recuerdos o
+              experiencias pasadas.
+            </li>
+            <li id="vp">
+              <strong>(VP) Vínculo con el pasado/infancia:</strong> recuerdos de
+              momentos pasados, especialmente de la infancia.
+            </li>
+            <li id="vr">
+              <strong>(VR) Vínculo religioso:</strong> relación sustentada en
+              creencias o valores espirituales.
+            </li>
+            <li id="va">
+              <strong>(VA) Vínculo afectivo:</strong> relación emocional con el
+              bien (alegría, tristeza, emoción...).
+            </li>
+            <li id="vam">
+              <strong>(VAm) Vínculo de amistad:</strong> relación basada en
+              lazos de amistad o compañerismo.
+            </li>
+            <li id="vs">
+              <strong>(VS) Vínculo social:</strong> relación compartida con un
+              grupo o colectivo.
+            </li>
+            <li id="ve">
+              <strong>(VE) Vínculo espacial:</strong> relación construida en un
+              lugar específico (pueblo, calle, ciudad...).
+            </li>
+            <li id="vex">
+              <strong>(VEx) Vínculo experiencial:</strong> relación basada en
+              una experiencia o vivencia particular.
+            </li>
+          </ol>
+
+          <p id="proceso-final">
+            El proceso de patrimonialización implica la relación entre pasado,
+            presente y futuro.
+          </p>
+        </article>
+      </section>
+      <section id="registrar">
+        <h2 id="titulo-registrar">Registrar un nuevo patrimonio</h2>
+
+        <form class="formulario-patrimonio">
+          <fieldset>
+            <legend id="legend-datos">Datos del patrimonio</legend>
+
+            <input
+              type="text"
+              id="nombre-patrimonio"
+              placeholder="Nombre del patrimonio"
+              required
+            />
+            <input
+              type="text"
+              id="localizacion"
+              placeholder="Localización"
+              required
+            />
+            <textarea
+              id="descripcion-patrimonio"
+              placeholder="Descripción"
+              required
+            ></textarea>
+            <button type="submit" id="boton-registrar">Registrar</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

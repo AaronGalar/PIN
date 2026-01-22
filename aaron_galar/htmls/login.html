@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/login.css" />
+    <script defer src="../scripts/login.js"></script>
+    <title>LOGIN</title>
+  </head>
+  <body>
+    <button id="boton-idioma">Euskara</button>
+
+    <section id="login">
+      <h2 id="titulo-login">INICIA SESIÓN</h2>
+      <form action="../index.html" method="get">
+        <div>
+          <label for="email" id="label-email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="password" id="label-password">Contraseña</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <button type="submit" id="boton-enviar">Enviar</button>
+      </form>
+    </section>
+    <a href="../index.html" id="volver">← Volver al inicio</a>
+  </body>
+</html>

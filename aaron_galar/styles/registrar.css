@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #333;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(255, 229, 229, 0.8)),
+    url("../imagenes/cara.jpg") no-repeat center center fixed;
+  color: #800000;
+}
+
+header h1 {
+  text-align: center;
+  color: #8b0000;
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+section h2 {
+  color: #8b0000;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+#proceso {
+  border: 2px solid #ff4d4d;
+  background: #fff5f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#proceso h3 {
+  color: #8b0000;
+  margin: 20px 0 10px;
+}
+
+#proceso ol {
+  margin-left: 20px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+#proceso p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+#registrar h2 {
+  margin-bottom: 15px;
+}
+
+.formulario-patrimonio fieldset {
+  border: 2px solid #ff4d4d;
+  background: #fff5f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.formulario-patrimonio legend {
+  color: #8b0000;
+  font-weight: bold;
+  padding: 0 8px;
+}
+
+.formulario-patrimonio input,
+.formulario-patrimonio textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #8b0000;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.formulario-patrimonio textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.formulario-patrimonio button {
+  background: #8b0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.formulario-patrimonio button:hover {
+  background: #ff4d4d;
+  transform: scale(1.05);
+}
+
+a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #8b0000;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+a:hover {
+  background: #ff4d4d;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+button {
+  background-color: #8b0000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff4d4d;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 5px #ff4d4d;
+}

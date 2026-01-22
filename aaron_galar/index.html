@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="icon" href="imagenes/PIN-NOM.ico" type="image/x-icon" />
+    <script defer src="./scripts/index.js"></script>
+    <title>PIN-NOM</title>
+  </head>
+  <body>
+    <div id="welcome-popup" class="popup">
+      <div class="popup-content">
+        <h2>¡Te he pillado!</h2>
+        <p>
+          Te encantan los San Fermines, te emocionas viendo un Paloteado y tu
+          comida favorita son las migas.Estás en el lugar perfecto. Dale a
+          "Cerrar" y descubre más cosas por las que emocionarte...
+        </p>
+        <button id="close-popup">Cerrar</button>
+      </div>
+    </div>
+    <header>
+      <h1 id="titulo">
+        PIN - Patrimonio Inmaterial Navarro / NOM Nafarroako Ondare materiagabea
+      </h1>
+      <div class="animación"></div>
+      <nav class="navegador">
+        <ul>
+          <li><a href="htmls/historia.html">Historia</a></li>
+          <li><a href="htmls/eventos.html">Eventos</a></li>
+          <li><a href="htmls/galeria.html">Galería</a></li>
+          <li><a href="htmls/login.html">Login</a></li>
+          <li><a href="htmls/registrar.html">Registrar patrimonio</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main">
+      <section id="bienvenida">
+        <h2 id="bienvenida-titulo">Bienvenido a PIN</h2>
+        <button id="boton-idioma">Euskara</button>
+
+        <h3 id="sobre-proyecto">Sobre este proyecto</h3>
+        <p id="descripcion">
+          Este es un proyecto sin ánimo de lucro creado por un graduado en
+          Historia y Patrimonio por la UPNA, actualmente formándose en Albañiles
+          Digitales para aprender programación. La idea ha sido unir ambos
+          mundos —las letras y las ciencias— y ofrecer un espacio dedicado a un
+          tema que nos conecta con nuestra humanidad: el Patrimonio Inmaterial.
+        </p>
+        <p id="aviso">
+          <strong>Aviso:</strong> el término completo es
+          <strong>PCIN</strong> (Patrimonio Cultural Inmaterial de Navarra),
+          pero he decidido omitir “Cultural” por su sonoridad;
+          <strong>PIN</strong> es más fácil de recordar.
+        </p>
+        <h3 id="que-encontraras">Qué encontrarás aquí</h3>
+        <p id="informacion">
+          Aquí descubrirás información sobre el Patrimonio Inmaterial de
+          Navarra: su historia, sus tradiciones, sus fiestas y los elementos que
+          construyen la identidad de nuestra comunidad foral.
+        </p>
+        <div class="destacados">
+          <div class="item">
+            <a href="htmls/historia.html">
+              <h3 id="item1-titulo">Historia</h3>
+              <p id="item1-texto">
+                Descubre qué es el patrimonio inmaterial y su importancia.
+              </p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="htmls/eventos.html">
+              <h3 id="item2-titulo">Eventos</h3>
+              <p id="item2-texto">
+                Consulta los acontecimientos culturales más importantes.
+              </p>
+            </a>
+          </div>
+          <div class="item">
+            <a href="htmls/galeria.html">
+              <h3 id="item3-titulo">Galería</h3>
+              <p id="item3-texto">Explora imágenes del patrimonio navarro.</p>
+            </a>
+          </div>
+          <div class="item">
+            <h3 id="item4-titulo">Más información</h3>
+            <p id="item4-texto">
+              Visita la web oficial del Patrimonio Cultural Inmaterial de
+              Navarra.
+            </p>
+            <a
+              id="item4-link"
+              href="https://www.culturanavarra.es/es/patrimonio-cultural-inmaterial"
+              target="_blank"
+              >Ir a la web</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="mapa">
+        <h3 id="para-mas">Para más información:</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2927.4187641932795!2d-1.6412426032104388!3d42.80063600000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5093b30d546e2d%3A0xd9a9e86617c6be7b!2sUniversidad%20P%C3%BAblica%20de%20Navarra%20(UPNA)!5e0!3m2!1ses!2ses!4v1762855419106!5m2!1ses!2ses"
+          width="500"
+          height="350"
+          style="border: 0; border-radius: 8px"
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </main>
+
+    <footer>By A.G</footer>
+  </body>
+</html>
